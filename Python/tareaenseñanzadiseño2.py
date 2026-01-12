@@ -1,5 +1,3 @@
-#Tarea hasta guia 6
-#Primera parte
 catalgo = [["The Office",2005,2013,9,770815,["Comedia"]],
 ["Breaking Bad",2008,2013,9.5,2314919,["Crimen", "Drama", "Suspenso"]],
 ["Band of Brothers",2001,2001,9.4,559518,["Acción", "Drama", "Histórica"]],
@@ -103,4 +101,5 @@ aaño = input("Ingrese año: ")
 ggens = input("Ingrese genero: ")
 #sseries = input("Ingrese catalogo: ")
 sseries = catalgo
+
 print(recomendar_series(sseries, aaño, ggens))

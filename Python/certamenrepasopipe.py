@@ -1,6 +1,6 @@
-#C 2020 C2
-#   estudiante1;estudiante2;estudiante3
+#formato
 
+#   estudiante1;estudiante2;estudiante3
 #   Andrea Campos;Andrea Campos;Pedro Vasquez
 
 
@@ -23,7 +23,7 @@ def obtener_representante(nombre_archivo):
             #print(voto)
             cont = 0
             bool verificador = True;
-            if voto not in d: #Si el candidato no esta registrado, Crea el candidato una vez en d
+            if voto not in d: #Si el candidato no esta registrado, crea el candidato una vez en d
                 d[voto] = 0
                 d[voto] += 1
                 verificador = False
@@ -34,3 +34,4 @@ def obtener_representante(nombre_archivo):
             
     return d
 print(obtener_representante('votos.txt'))
+

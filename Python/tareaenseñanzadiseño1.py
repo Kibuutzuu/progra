@@ -128,8 +128,7 @@ def recomendar_series(lista, año, lista_generos):
    return listafinal #retorna la lista modificada
 
 #consideraciones: ocupo range porque se implementó en la guia rapida de listas, no como range solamente pero al decir list(range(a)) me doy a entender que si podemos ocuparlo.
-#el código se puede optimizar muchisimo más, pero, se comprenderá que el entorno en el que lo hice no es el más óptimo
-#para referencias como el bubble sort busque material externo, pero, ocupe cosas que si están dentro de los limites hasta la unidad 6
+#el código se puede optimizar muchisimo más
 # link de la biblioteca de python del bubble sort (el video no lo tengo): https://ellibrodepython.com/bubble-sort
 
 print("P2:")
